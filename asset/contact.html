@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="visita suite.png" type="image/x-icon">
+
+    <title>Contact et réservation | Vista Suites, Grand City</title>
+    <meta name="description" content="Contactez Vista Suites à Grand City pour réserver votre séjour ou poser une question : formulaire, plan d'accès, téléphone et horaires d'ouverture.">
+    <meta name="keywords" content="contact hôtel, réserver une suite, Vista Suites, hôtel Grand City, adresse hôtel, téléphone hôtel, horaires d'ouverture, formulaire de contact">
+</head>
+<body>
+
+    <!-- Header -->
+     <header>
+        <!-- Banner -->
+         <div class="banner" role="banner" aria-label="Bannière">
+            <!-- Image : (prend toute la zone banner) -->
+             <img src="images/slide-2.jpg" alt="Une belle chambre" class="banner-img">
+
+             <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" class="active" aria-label="Contact">Contact</a></li>
+                </ul>
+             </nav>
+
+             <div class="banner-contenu">
+                <h1 class="contact-title"></h1>
+
+                <div class="social-icon-banner">
+                    <h2>Suivez-nous</h2>
+                    <a href="#" target="_blank" aria-label="Facebook">Facebook</a>
+                    <a href="#" target="_blank" aria-label="Twitter">Twitter</a>
+                </div>
+             </div>
+         </div>
+     </header>
+
+      <!-- Section de contact -->
+         <section class="contact-container-section">
+            <div class="form-maps-content">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.0487267431663!2d15.31822317438766!3d-4.40198564696835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a39af17a92d31%3A0x468893ba38769c10!2sStonnegams!5e0!3m2!1sfr!2scd!4v1792266139733!5m2!1sfr!2scd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+
+            <div class="form-formular-content">
+                <form action="" method="post">
+                    <h2>Écrivez-nous</h2>
+                    <label for="name" aria-label="Nom complet">Nom:</label>
+                    <input type="text" name="name" id="name" placeholder="Votre nom complet.." required>
+
+                    <label for="email" aria-label="Adresse e-mail">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Votre adress e-mail.." required>
+
+                    <label for="number" aria-label="Numéro de téléphone">Téléphone:</label>
+                    <input type="tel" name="number" id="number" placeholder="Numéro de téléphone">
+
+                    <label for="offer" aria-label="Offres">Offres:</label>
+                    <input type="text" name="offer" id="offer" placeholder="Événement, Séjours..">
+
+                    <label for="message" aria-label="Rédiger un essage">Message:</label>
+                    <textarea name="message" id="message" placeholder="Rédiger mon message" minlength="1" maxlength="1000"></textarea>
+
+                    <button type="submit"></button>
+                </form>
+            </div>
+         </section>
+
+     <footer>
+            <div class="foot-from-content">
+                <h3>Bureau des réservation</h3>
+                <div class="foot-form-container">
+                    <img src="images/lieu.png" alt="Icone de localisation" class="icon.img"> 
+                    <p>123 rue Quelconque. 12345 Ville</p>
+                </div>
+                <div class="foot-form-container">
+                    <img src="images/telephone.png" alt="Icone de téléphone" class="icon.img"> 
+                    <a href="tel:+0123456789" aria-label="Numéro pour appeler">+01 23 45 67 89</a>
+                </div>
+                <div class="icon-img-container">
+                    <img src="images/email.png" alt="Icone d'e-mail'" class="icon.img"> 
+                    <a href="mailto:stonnegams@gmail.com" aria-label="Numéro pour appeler">stonnegams@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="foot-form-content">
+                <h3>Heures d'ouvertures</h3>
+                <p>Du lundi au vendredi 9h à 18h</p>
+                <p>Samedi 9h à 12h</p>
+            </div>
+
+            <div class="foot-from-content">
+                <h3>Restez connecté(e)</h3>
+                <div class="icon-img-container"> 
+                   <a href="#" target="_blank" aria-label="Facebook">Facebook</a>
+                   <a href="#" target="_blank" aria-label="Instagram">Instagram</a>
+
+                   <a href="blog.html" aria-label="Blog" class="button">Identifiez-nous sur vos photos !</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="index.js"></script>
+</body>
+</html>
